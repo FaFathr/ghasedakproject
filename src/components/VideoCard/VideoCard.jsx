@@ -26,9 +26,9 @@ function VideoCard() {
   };
 
   return (
-    <div className="relative w-full h-screen mt-6">
+    <div className="relative w-full h-screen mt-6 ">
       <video
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover "
         src="src/assets/video/testvdtwo.mp4"
         muted
         loop
