@@ -1,20 +1,3 @@
-// import React from 'react';
-
-// function VideoCard() {
-//   return (
-//     <div className="relative w-full h-screen mt-6">
-//       <video
-//         className="absolute inset-0 w-full h-full object-cover"
-//         src="src/assets/video/testvdtwo.mp4"
-//         muted
-//         loop
-//     autoPlay
-//       />
-//     </div>
-//   );
-// }
-
-// export default VideoCard;
 
 import React, { useState } from "react";
 import { FaRegCirclePlay } from "react-icons/fa6";
@@ -29,7 +12,7 @@ function VideoCard() {
     <div className="relative w-full h-screen mt-6 ">
       <video
         className="absolute inset-0 w-full h-full object-cover "
-        src="src/assets/video/testvdtwo.mp4"
+        src="https://ghasedak.com/files/birth.mp4"
         muted
         loop
         ref={(el) => {

@@ -3,21 +3,21 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function GoldDetailCard() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 p-3 gap-8 mt-[150px] justify-center items-center">
       <div className="text-right space-y-4">
         <div className="flex items-center space-x-2">
           <FaCheckCircle className="text-[#FFD93B] ml-2" size={25} />
-          <span className="text-[#000000] font-semibold ">
+          <span className="text-[#000000] font-semibold text-[32px]">
             چرا این فرصت طلایی است؟
           </span>
         </div>
-        <div className="break-words text-[#363636] font-normal">
+        <div className="break-words text-[20] text-[#363636] font-normal leading-10">
           ۲۵ سال تلاش، تخصص، و تعهد به ارائه بهترین خدمات و محصولات در صنعت
           تلکام ایران را با شما جشن می‌گیریم. این کمپین به پاس قدردانی از اعتماد
           شما طراحی شده است. هدف ما این است که کسب‌وکار شما از آینده فناوری
           بیشترین بهره را ببرد.
         </div>
-        <ul className="list-disc mr-[1rem] ">
+        <ul className="list-disc mr-[1rem] flex flex-col gap-6 ">
           <li>
             <span className="text-[#363636] font-semibold">۲۵٪ تخفیف</span> نقدی
             برای تمامی محصولات.
@@ -38,7 +38,7 @@ function GoldDetailCard() {
       </div>
       <div className="flex justify-center items-center">
         <img
-          src="src/assets/img/testimgs.jpg"
+          src="src/assets/img/DSC065531.png"
           alt="Gold Campaign"
           className="max-w-full h-auto"
         />
