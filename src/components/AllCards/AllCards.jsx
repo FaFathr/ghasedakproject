@@ -80,7 +80,7 @@ function AllCards() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-4 my-8">
       {cards.map((card) => (
-        <div key={card.id} className="flex rounded-lg shadow-sm overflow-hidden">
+        <div key={card.id} className="flex rounded-lg shadow-sm overflow-hidden hover:scale-95 duration-600">
           {/* متن سمت راست */}
           <div className="w-1/2 p-4 flex flex-col bg-whitec justify-center gap-10 items-start">
             <div>

@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import slider1 from "../../assets/img/SLDIER1.png";
-import slider2 from "../../assets/img/SLDIER2.png";
-import slider3 from "../../assets/img/SLDIER3.png";
+import slider1 from "../../assets/img/SLDIER1.jpg";
+import slider2 from "../../assets/img/SLDIER2.jpg";
+import slider3 from "../../assets/img/SLDIER3.jpg";
 
 export default function Slider() {
   const [background, setBackground] = useState("radial-gradient(circle, rgba(24,18,53,0.13489145658263302) 10%, rgba(23,18,53,1) 60%)");
