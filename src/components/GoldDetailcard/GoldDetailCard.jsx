@@ -38,7 +38,7 @@ function GoldDetailCard() {
       </div>
       <div className="flex justify-center items-center">
         <img
-          src="src/assets/img/DSC065531.png"
+          src="https://ghasedak.com/files/mhnds.png"
           alt="Gold Campaign"
           className="max-w-full h-auto"
         />

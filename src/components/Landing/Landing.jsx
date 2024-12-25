@@ -6,9 +6,9 @@ import { Autoplay } from 'swiper/modules';
 
 export default function Landing() {
   const images = [
-    'src/assets/img/1.png',
-    'src/assets/img/2.png',
-    'src/assets/img/3.png',
+    'https://ghasedak.com/files/1.png',
+    'https://ghasedak.com/files/2.png',
+    'https://ghasedak.com/files/3.png',
   ];
 
   return (
