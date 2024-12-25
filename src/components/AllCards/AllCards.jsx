@@ -1,4 +1,4 @@
-import CGNIPPlus from "../../assets/img/CGN IP Plus.png";
+import CGNIPPlus from "../../assets/img/CGN IP Plus.jpg";
 import MAHTABPCEFDPI from "../../assets/img/MAHTAB PCEFDPI.png";
 import IPDR from "../../assets/img/IPDR.png";
 import NetBill from "../../assets/img/NetBill.png";
@@ -112,7 +112,7 @@ function AllCards() {
           {/* تصویر سمت چپ */}
           <div className="w-1/2 h-full">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full bg-cover object-cover"
               src={card.image}
               alt={card.title}
             />

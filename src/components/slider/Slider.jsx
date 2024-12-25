@@ -8,7 +8,7 @@ import slider2 from "../../assets/img/SLDIER2.jpg";
 import slider3 from "../../assets/img/SLDIER3.jpg";
 
 export default function Slider() {
-  const [background, setBackground] = useState("radial-gradient(circle, rgba(24,18,53,0.13489145658263302) 10%, rgba(23,18,53,1) 60%)");
+  const [background, setBackground] = useState("radial-gradient(circle, rgba(24,18,53,0.13489145658263302) 10%, rgba(23,18,53,1) 100%)");
   const handleSlideChange = (swiper) => {
     const gradients = [
       "radial-gradient(circle, rgba(24,18,53,0.13489145658263302) 10%, rgba(23,18,53,1) 60%)",

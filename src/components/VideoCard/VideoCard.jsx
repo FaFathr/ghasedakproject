@@ -13,7 +13,6 @@ function VideoCard() {
       <video
         className="absolute inset-0 w-full h-full object-cover "
         src="https://ghasedak.com/files/birth.mp4"
-        muted
         loop
         ref={(el) => {
           if (el) {

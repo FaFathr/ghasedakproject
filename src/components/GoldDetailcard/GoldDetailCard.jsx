@@ -3,7 +3,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function GoldDetailCard() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 p-3 gap-8 mt-[150px] justify-center items-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 p-3 gap-8 mt-[10%] md:mt-[20%] justify-center items-center">
       <div className="text-right space-y-4">
         <div className="flex items-center space-x-2">
           <FaCheckCircle className="text-[#FFD93B] ml-2" size={25} />
