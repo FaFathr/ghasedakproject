@@ -19,7 +19,8 @@ module.exports = {
       "graypro":"#85868C",
       "grayinput":"#F9F9F9",
       "bordercolor":"#828282",
-      "headingpro":"#404040"
+      "headingpro":"#404040",
+      "redd":"#FF0000"
     }
   },
   plugins: [],
