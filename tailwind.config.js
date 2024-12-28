@@ -20,7 +20,8 @@ module.exports = {
       "grayinput":"#F9F9F9",
       "bordercolor":"#828282",
       "headingpro":"#404040",
-      "redd":"#FF0000"
+      "redd":"#FF0000",
+      "green":"#00BF1D"
     }
   },
   plugins: [],

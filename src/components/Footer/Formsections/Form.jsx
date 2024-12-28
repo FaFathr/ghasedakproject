@@ -145,8 +145,15 @@ export default function Form() {
                 </button>
               </form>
               {responseMessage && (
-                <p className="mt-4 text-center text-redd">{responseMessage}</p>
-              )}
+  <p
+    className={`mt-4 text-center ${
+      responseMessage.includes("موفقیت") ? "text-green" : "text-redd"
+    }`}
+  >
+    {responseMessage}
+  </p>
+)}
+
             </div>
           </div>
         </section>

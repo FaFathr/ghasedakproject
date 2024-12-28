@@ -26,7 +26,7 @@ export default function Slider() {
         overflow: "hidden",
         transition: "background 0.5s ease",
         position: "relative",
-        margin:"20px 0px"
+     
       }}
     >
       <Swiper

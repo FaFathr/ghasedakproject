@@ -6,9 +6,9 @@ import { Autoplay } from 'swiper/modules';
 
 export default function Landing() {
   const images = [
-    'https://ghasedak.com/files/1.png',
-    'https://ghasedak.com/files/2.png',
-    'https://ghasedak.com/files/3.png',
+    'https://ghasedak.com/files/1.jpg',
+    'https://ghasedak.com/files/2.jpg',
+    'https://ghasedak.com/files/3.jpg',
   ];
 
   return (
@@ -22,6 +22,16 @@ export default function Landing() {
           loop={true}
           autoplay={{ delay: 3000 }}
           className="h-full w-full"
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            1024: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+          }}
         >
           {images.map((src, index) => (
             <SwiperSlide key={index}>
@@ -36,7 +46,7 @@ export default function Landing() {
 
       {/* Bottom Content */}
       <div
-        className="w-full max-w-[90%] mx-auto  -mt-[30%] p-6 bg-hero-bg bg-cover rounded-xl shadow-lg flex flex-col items-center justify-center gap-5 z-10"
+        className="w-full max-w-[90%] mx-auto -mt-[22%] p-6 bg-hero-bg bg-cover rounded-xl shadow-lg flex flex-col items-center justify-center gap-5 z-10"
       >
         <span className="text-goldtext drop-shadow-md text-[20px] md:text-[28px] lg:text-[38px] font-normal text-center">
           فرصتی طلایی و تکرار نشدنی!!!

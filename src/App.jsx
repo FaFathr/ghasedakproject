@@ -11,12 +11,16 @@ function App() {
 
   return (
     <>
+    <div>
     <Landing/>
+      <div className='p-6'>
      <GoldDetailCard/>
      <VideoCard/>
      <AllCards/>
+     </div>
      <Slider/>
      <Footer/>
+     </div>
     </>
   )
 }

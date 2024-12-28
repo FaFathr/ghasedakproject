@@ -1,9 +1,9 @@
-import CGNIPPlus from "../../assets/img/CGN IP Plus.jpg";
+import CGNIPPlus from "../../assets/img/CGN IP Plus.png";
 import MAHTABPCEFDPI from "../../assets/img/MAHTAB PCEFDPI.png";
 import IPDR from "../../assets/img/IPDR.png";
 import NetBill from "../../assets/img/NetBill.png";
 import OCSOCS from "../../assets/img/OCS.png";
-import SAMFONY from "../../assets/img/SAMFONY.png";
+import SAMFONY from "../../assets/img/SAMFONY.jpg";
 import iconreadmore from "../../assets/icons/iconreadmore.png";
 
 function AllCards() {
@@ -17,70 +17,72 @@ function AllCards() {
         "استانداردهای RFC روز در حوزه AAA",
       ],
       image: NetBill,
-      URL:"https://ghasedak.com/portal/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-netbill/"
+      URL: "https://ghasedak.com/portal/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-netbill/",
     },
     {
       id: 2,
       title: " نرم افزار SAMFONY BSS   ",
-      description: "سامانه جامع مدیریت کاربران اینترنت",
+      description: "سامانه جامع پشتیبانی و مدیریت کسب و کار تلکام",
       features: [
-        "NetBill سيستمي كامل و جامع منطبق با",
-        "استانداردهای RFC روز در حوزه AAA",
+        " یکی از خصوصیات ذاتی اغلب  ",
+        "فضاهای کسب و کار، نرخ تغییرات زیاد به ......" ,
       ],
       image: SAMFONY,
-      URL:"https://ghasedak.com/portal/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-%d8%b3%d9%85%d9%81%d9%88%d9%86%db%8c-bss/"
+      URL: "https://ghasedak.com/portal/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-%d8%b3%d9%85%d9%81%d9%88%d9%86%db%8c-bss/",
     },
     {
       id: 3,
       title: "سامانه CGN IP Plus  ",
-      description: "سامانه جامع مدیریت کاربران اینترنت",
+      description: "سامانه مدیرت IP",
       features: [
-        "NetBill سيستمي كامل و جامع منطبق با",
-        "استانداردهای RFC روز در حوزه AAA",
+        "با رشد و گسترش خدمات اینترنت پرسرعت",
+        "ر کشور، مساله کمبود IP برای ارائه......",
       ],
       image: CGNIPPlus,
-      URL:"https://ghasedak.com/portal/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-cgn-ip-plus/"
+      URL: "https://ghasedak.com/portal/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-cgn-ip-plus/",
     },
     {
       id: 4,
       title: " سامانه OCS ",
-      description: "سامانه جامع مدیریت کاربران اینترنت",
+      description: "سیستم شارژ آنلاین (OCS)",
       features: [
-        "NetBill سيستمي كامل و جامع منطبق با",
-        "استانداردهای RFC روز در حوزه AAA",
+        "سیستم شارژ آنلاین (OCS) یک سیستم ",
+        "مورد استفاده در شبکه‌های ارتباطات",
       ],
-      image:OCSOCS,
-      URL:"https://ghasedak.com/portal/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-ocs/"
+      image: OCSOCS,
+      URL: "https://ghasedak.com/portal/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-ocs/",
     },
     {
       id: 6,
       title: " سامانه مهتاب PCEF/DPI ",
-      description: "سامانه جامع مدیریت کاربران اینترنت",
+      description: "نرم افزار تفکیک ترافیک مهتاب",
       features: [
-        "NetBill سيستمي كامل و جامع منطبق با",
-        "استانداردهای RFC روز در حوزه AAA",
+        " سامانه MAHTAB PCEF/DPI راه حلی جامع ",
+        "  و کاملا بومی و منعطف جهت تحلیل و ......",
       ],
       image: MAHTABPCEFDPI,
-      URL:"https://ghasedak.com/portal/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-%d9%85%d9%87%d8%aa%d8%a7%d8%a8/"
+      URL: "https://ghasedak.com/portal/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-%d9%85%d9%87%d8%aa%d8%a7%d8%a8/",
     },
     {
       id: 7,
       title: "  سامانه  IPDR",
-      description: "سامانه جامع مدیریت کاربران اینترنت",
+      description: "سابقه جزئیات پروتکل اینترنت ",
       features: [
-        "NetBill سيستمي كامل و جامع منطبق با",
-        "استانداردهای RFC روز در حوزه AAA",
+        "سابقه جزئیات پروتکل اینترنت (IPDR) یک ",
+        " فرمت استاندارد برای جمع‌آوری و .......",
       ],
       image: IPDR,
-      URL:"https://ghasedak.com/portal/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-ipdr/"
-    }
-
+      URL: "https://ghasedak.com/portal/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-ipdr/",
+    },
   ];
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-4 my-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 mt-[2%] gap-4">
       {cards.map((card) => (
-        <div key={card.id} className="flex rounded-lg shadow-sm overflow-hidden hover:scale-95 duration-600">
+        <div
+          key={card.id}
+          className="flex rounded-lg shadow-md overflow-hidden transform transition-all duration-700 hover:scale-95 hover:shadow-lg"
+        >
           {/* متن سمت راست */}
           <div className="w-1/2 p-4 flex flex-col bg-whitec justify-center gap-10 items-start">
             <div>
@@ -105,7 +107,7 @@ function AllCards() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={iconreadmore} />
+                <img src={iconreadmore} alt="read more" />
               </a>
             </div>
           </div>
